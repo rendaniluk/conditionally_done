@@ -14,6 +14,9 @@ var days = weekOrWeekend('Wednesday');
 console.log(days);
 var today = weekOrWeekend('Sunday');
 console.log(today);
+var mon = weekOrWeekend('Monday');
+console.log(mon);
+var sat = weekOrWeekend('Saturday')
 //testing using assert functions
 assert.equal(weekOrWeekend('Wednesday'),'week');
 assert.equal(weekOrWeekend('Sunday'),'weekend');
