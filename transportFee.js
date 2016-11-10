@@ -1,5 +1,6 @@
+//importing assert funtion to JS.
 const assert = require('assert')
-
+//declaring funtion transportFee
 var transportFee = function(workSchedule){
 //instead of if statements we use if switch
     switch(workSchedule) {
@@ -9,7 +10,7 @@ var transportFee = function(workSchedule){
             return 'Transport Fee is R10';
         case 'nightshift':
             return 'Transport is free';
-//for other route not listed above it return default
+//when your not working of off.
         default:
             return 'your not working ' + workSchedule;
     }
